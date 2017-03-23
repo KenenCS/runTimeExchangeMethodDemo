@@ -13,6 +13,9 @@
 		6C74F85F1E83C46300E15CE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C74F85D1E83C46300E15CE6 /* Main.storyboard */; };
 		6C74F8611E83C46300E15CE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C74F8601E83C46300E15CE6 /* Assets.xcassets */; };
 		6C74F8641E83C46300E15CE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C74F8621E83C46300E15CE6 /* LaunchScreen.storyboard */; };
+		6C74F8711E83C4DD00E15CE6 /* UIImage+Exchange.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C74F8701E83C4DD00E15CE6 /* UIImage+Exchange.m */; };
+		6C74F8741E83C53200E15CE6 /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C74F8721E83C53200E15CE6 /* 123.png */; };
+		6C74F8771E83C5A500E15CE6 /* 456.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C74F8761E83C5A500E15CE6 /* 456.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,10 @@
 		6C74F8601E83C46300E15CE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C74F8631E83C46300E15CE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C74F8651E83C46300E15CE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C74F86F1E83C4DD00E15CE6 /* UIImage+Exchange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Exchange.h"; sourceTree = "<group>"; };
+		6C74F8701E83C4DD00E15CE6 /* UIImage+Exchange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Exchange.m"; sourceTree = "<group>"; };
+		6C74F8721E83C53200E15CE6 /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 123.png; sourceTree = "<group>"; };
+		6C74F8761E83C5A500E15CE6 /* 456.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 456.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,9 @@
 		6C74F8531E83C46300E15CE6 /* runTimeExchangeMethodDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6C74F8761E83C5A500E15CE6 /* 456.png */,
+				6C74F8721E83C53200E15CE6 /* 123.png */,
+				6C74F86B1E83C4B200E15CE6 /* UIImageExchange */,
 				6C74F8571E83C46300E15CE6 /* AppDelegate.h */,
 				6C74F8581E83C46300E15CE6 /* AppDelegate.m */,
 				6C74F85A1E83C46300E15CE6 /* ViewController.h */,
@@ -77,6 +87,15 @@
 				6C74F8551E83C46300E15CE6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C74F86B1E83C4B200E15CE6 /* UIImageExchange */ = {
+			isa = PBXGroup;
+			children = (
+				6C74F86F1E83C4DD00E15CE6 /* UIImage+Exchange.h */,
+				6C74F8701E83C4DD00E15CE6 /* UIImage+Exchange.m */,
+			);
+			path = UIImageExchange;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +156,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C74F8741E83C53200E15CE6 /* 123.png in Resources */,
 				6C74F8641E83C46300E15CE6 /* LaunchScreen.storyboard in Resources */,
 				6C74F8611E83C46300E15CE6 /* Assets.xcassets in Resources */,
+				6C74F8771E83C5A500E15CE6 /* 456.png in Resources */,
 				6C74F85F1E83C46300E15CE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C74F8711E83C4DD00E15CE6 /* UIImage+Exchange.m in Sources */,
 				6C74F85C1E83C46300E15CE6 /* ViewController.m in Sources */,
 				6C74F8591E83C46300E15CE6 /* AppDelegate.m in Sources */,
 				6C74F8561E83C46300E15CE6 /* main.m in Sources */,
